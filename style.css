@@ -119,7 +119,7 @@ footer a{
     justify-content: center;
     margin-left: 30px;
     padding: 50px;
-    background: url('../plural-sight/3.jfif') cover no-repeat center;
+    background: url('https://image.ibb.co/cO9Lxq/login-bg.jpg') no-repeat center center / cover;
 }
 .right-top{
     font-size: x-large;
