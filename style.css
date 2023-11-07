@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Roboto:wght@300&family=Rubik:ital,wght@0,300;0,400;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.right{
+    flex: 1;
+}
+.image{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.bi-play-circle{
+    font-size: 48px;
+    padding-right: 2px;
+    margin: 2px;
+    color: pink;
+}
+.image p{
+    font-size: 24px;
+}
+form{
+    margin-bottom: 0px;
+}
+form input{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.479);
+    border: 1px solid grey;
+    margin: 8px 0px;
+}
+button{
+    width: 100%;
+    background: orangered;
+    border: none;
+    color: #fff;
+    padding: 6px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.links a{
+    color: #fff;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.or{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+}
+.bar{
+    flex: auto;
+    color: #aaa;
+    height: .1px;
+}
+.or p{
+    padding: 0 0.8rem;
+}
+.btnreg{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    border:1px solid grey;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px;
+    margin: 8px 0px;
+}
+footer{
+    margin-top: 8em;
+    font-size: 10px;
+    text-align: center;
+}
+footer a{
+    color: orangered;
+}
+.anchor{
+    margin-top: 10px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+    padding: 50px;
+    background: url('../plural-sight/3.jfif') cover no-repeat center;
+}
+.right-top{
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+.right-bottom{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 100%;
+}
+.right-bottom a{
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+}
